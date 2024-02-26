@@ -1,98 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>shop</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shop</title>
 
-    <style>
-      .img-height{
-        width: 220px;
-      }
-    </style>
+  <style>
+    .img-height {
+      width: 220px;
+    }
+  </style>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Shoping</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+  <nav class="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Shoping</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./login-form.html">Login</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">laptop</a></li>
+              <li><a class="dropdown-item" href="#">Earbuds</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./login-form.html">Login</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Products
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">laptop</a></li>
-                  <li><a class="dropdown-item" href="#">Earbuds</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">help</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
+              <li><a class="dropdown-item" href="#">help</a></li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
 
 
-      <div class="container text-center fs-1">
+  <div class="container text-center fs-1">
 
-        <div class="row ">
+    <div class="row ">
 
-        <div class="col rounded bg-secondary text-white lh-1 m-4" >
+      <div class="col rounded bg-secondary text-white lh-1 m-4">
 
-          <img class="m-3 rounded img-height" src="./images/laptop1.webp">
-          <h4>CHUWI Intel Core i3 10th Gen 1005G1</h4>
-          <span class="fs-5 ">(8 GB/512 GB SSD/Windows 11 Home) CoreBook X Grey Laptop  (14 inch, Grey, 1.40 kg)</span>
-
-        </div>
-
-        <div class="col rounded bg-secondary text-white lh-1 m-4">
-
-          <img class="m-3 rounded img-height" src="./images/laptop2.webp">
-          <h4>HP 2023 AMD Ryzen 3 Dual Core 3250U</h4>
-          <span class="fs-5 "> (8 GB/512 GB SSD/Windows 11 Home) 15s- eq1580AU Thin and Light Laptop  (15.6 Inch, Natural Silver, 1.69 Kg, With MS Office)</span>
-        </div>
-
-        <div class="col rounded bg-secondary text-white lh-1 m-4">
-
-          <img class="m-3 rounded img-height" src="./images/laptop3.webp">
-          <h4>walker Intel Celeron Dual Core N4020</h4>
-          <span class="fs-5 ">(4 GB/128 GB SSD/Windows 11 Home) NU14A1 Thin and Light Laptop  (14.1 inch, Cloud Silver, 1.3 Kg)</span>
-        </div>
-
-        <div class="col rounded bg-secondary text-white lh-1 m-4">
-
-          <img class="m-3 rounded img-height" src="./images/laptop4.webp">
-          <h4>HP 14s Intel Core i3 11th Gen 1115G4 </h4>
-          <span class="fs-5 "> (8 GB/512 GB SSD/Windows 11 Home) 14s - dy2508TU Thin and Light Laptop  (14 inch, Natural Silver, 1.41 kg, With MS Office)</span>
-
-        </div>
-     
-        </div>
+        <img class="m-3 rounded img-height" src="./images/laptop1.webp">
+        <h4>CHUWI Intel Core i3 10th Gen 1005G1</h4>
+        <span class="fs-5 ">(8 GB/512 GB SSD/Windows 11 Home) CoreBook X Grey Laptop (14 inch, Grey, 1.40
+          kg)<br>₹24,990<br> <del>₹49,990</del></span>
 
       </div>
-    
+
+      <div class="col rounded bg-secondary text-white lh-1 m-4">
+
+        <img class="m-3 rounded img-height" src="./images/laptop2.webp">
+        <h4>HP 2023 AMD Ryzen 3 Dual Core 3250U</h4>
+        <span class="fs-5 "> (8 GB/512 GB SSD/Windows 11 Home) 15s- eq1580AU Thin and Light Laptop (15.6 Inch, Natural
+          Silver, 1.69 Kg, With MS Office)<br>₹37,990 <br> <del>₹56,260</del></span>
+
+
+      </div>
+
+      <div class="col rounded bg-secondary text-white lh-1 m-4">
+
+        <img class="m-3 rounded img-height" src="./images/laptop3.webp">
+        <h4>walker Intel Celeron Dual Core N4020</h4>
+        <span class="fs-5 ">
+          
+                (4 GB/128 GB SSD/Windows 11 Home) NU14A1 Thin and Light Laptop (14.1 inch, Cloud Silver, 1.3 Kg)
+
+                <br>₹12,990 <br> <del>₹30000</del>
+        
+        </span>
+      </div>
+
+      <div class="col rounded bg-secondary text-white lh-1 m-4">
+
+        <img class="m-3 rounded img-height" src="./images/laptop4.webp">
+        <h4>HP 14s Intel Core i3 11th Gen 1115G4 </h4>
+        <span class="fs-5 "> (8 GB/512 GB SSD/Windows 11 Home) 14s - dy2508TU Thin and Light Laptop (14 inch, Natural
+          Silver, 1.41 kg, With MS Office)
+          <br>₹37,990 <br> <del>₹56,260</del>
+        </span>
+
+      </div>
+
+    </div>
+
+  </div>
 
 
 
@@ -113,7 +131,11 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>
